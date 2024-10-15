@@ -4,7 +4,7 @@ fun main() {
     val name = "Kotlin"
     //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
     // to see how IntelliJ IDEA suggests fixing it.
-    println("Hello, " + name + "!")
+//    println("Hello, " + name + "!")
 
     // name = "you can't change a val"
 
@@ -16,7 +16,7 @@ fun main() {
         // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
         println("i + 1 = ${i + 1}")
     }
-    var money: Float = 1000.0F
+    val money = 1000.0F
 
     println("money = \$$money")
 
